@@ -4,7 +4,7 @@ A modern, feature-rich trading journal application built with React, TypeScript,
 
 ## ✨ Features
 
-### 📊 Trading Management
+###  Trading Management
 - **Trade Logging**: Comprehensive trade entry with all essential fields
 - **Real-time Synchronization**: Automatic data sync across devices via PocketBase
 - **Trade Analytics**: P&L tracking, win rate, profit factor, and more
@@ -12,12 +12,12 @@ A modern, feature-rich trading journal application built with React, TypeScript,
 - **Risk Management**: R-multiple calculation and risk tracking
 - **Multi-Account Support**: Manage and switch between multiple trading accounts
 
-### 📖 Journal & Documentation
+###  Journal & Documentation
 - **Daily Journal**: Calendar-based journaling with week navigation, templates, and trade integration
 - **Trading Playbooks**: Create and manage trading strategies and setups
 - **Trade Notes**: Detailed notes for each trade including emotions and market conditions
 
-### 📈 Analytics & Insights
+###  Analytics & Insights
 - **Performance Metrics**: Total P&L, win rate, profit factor, average win/loss
 - **Visual Charts**: Performance visualization with Recharts and Lightweight Charts
 - **Calendar Integration**: Track trading activity by date
@@ -25,22 +25,22 @@ A modern, feature-rich trading journal application built with React, TypeScript,
 - **Pattern Performance**: Identify and track which setups perform best
 - **Aggregate P&L Widgets**: Cross-account performance views
 
-### 🔐 Authentication & Security
+###  Authentication & Security
 - **Email/Password Authentication**: Secure user registration and login
 - **User Profiles**: Personalized user experience via PocketBase Auth
 
-### 🔄 Data Management
+###  Data Management
 - **CSV Import**: Import trades from broker exports
 - **PDF Import**: Parse brokerage statements
 - **Export**: Export trade data and reports
 - **Data Backup**: Built-in backup and rollback capabilities
 
-### 📡 Market Data
+###  Market Data
 - **Top Gainers**: Real-time top gainer data with caching
 - **Futures Data**: Futures market integration
 - **Yahoo Finance Proxy**: Volume and price data for traded symbols
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -174,7 +174,7 @@ interface Trade {
 }
 ```
 
-## 🚀 Deployment
+##  Deployment
 
 ### Build for Production
 ```bash
@@ -234,7 +234,7 @@ The `/api` directory contains legacy Vercel-format stubs. The active serverless 
 
 Cloudflare Pages automatically routes requests matching `functions/api/<name>.js` to the corresponding Worker. The `GET /api/top-gainers` route is handled by `functions/api/top-gainers.js`, which proxies the ChartsWatcher API server-side so credentials are never exposed to the client. The `public/_redirects` SPA catch-all (`/* /index.html 200`) only applies after Pages Functions are checked, so API routes take priority.
 
-## 🛠️ Development
+##  Development
 
 ### Available Scripts
 - `npm run dev` - Start development server
@@ -250,7 +250,7 @@ Cloudflare Pages automatically routes requests matching `functions/api/<name>.js
 - **TypeScript** - Strict type checking
 - **Prettier** - Code formatting (recommended)
 
-## 🔍 Features Roadmap
+##  Features Roadmap
 
 ### ✅ Completed
 - User authentication
@@ -278,7 +278,7 @@ Cloudflare Pages automatically routes requests matching `functions/api/<name>.js
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Inspired by [Tradezella](https://tradezella.com/), [Tradervue](https://www.tradervue.com/), and [TraderSync](https://tradersync.com/)
 - Built with [shadcn/ui](https://ui.shadcn.com/) components
